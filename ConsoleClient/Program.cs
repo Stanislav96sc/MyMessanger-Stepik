@@ -6,7 +6,8 @@ namespace MyMessanger_Stepik
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Message msg = new Message();
+            Console.WriteLine(msg.ToString());
         }
     }
 }
