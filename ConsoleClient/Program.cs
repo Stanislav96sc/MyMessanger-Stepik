@@ -15,7 +15,7 @@ namespace MyMessanger_Stepik
             Message deserializedMsg = JsonConvert.DeserializeObject<Message>(output);
             Console.WriteLine(deserializedMsg);
 
-            //{ "UserName":"Stas","MessageText":"P65Z"} Stas < 03.05.2021 12:04:42 >: Privet
+            //{ "UserName":"Stas","MessageText":"Privet","TimeStamp":"2021-05-05T18:45:14.3515625Z"}
         }
     }
 }
